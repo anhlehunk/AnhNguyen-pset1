@@ -28,7 +28,7 @@
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="251sp"
         android:src="@drawable/body"
         android:id="@+id/potato_body"
         android:layout_marginTop="10dp"
@@ -39,7 +39,7 @@
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="25sp"
         android:src="@drawable/arms"
         android:id="@+id/potato_arms"
         android:layout_marginTop="10dp"
