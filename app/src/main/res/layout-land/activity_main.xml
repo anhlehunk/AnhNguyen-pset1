@@ -28,133 +28,135 @@
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/body"
         android:id="@+id/potato_body"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5sp"/>
+        android:layout_marginBottom="5sp"
+
+        />
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/arms"
         android:id="@+id/potato_arms"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/ears"
         android:id="@+id/potato_ears"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/eyebrows"
         android:id="@+id/potato_eyebrows"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/eyes"
         android:id="@+id/potato_eyes"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/glasses"
         android:id="@+id/potato_glasses"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/hat"
         android:id="@+id/potato_hat"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/mouth"
         android:id="@+id/potato_mouth"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/mustache"
         android:id="@+id/potato_mustache"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/nose"
         android:id="@+id/potato_nose"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <ImageView
 
         android:layout_width="wrap_content"
-        android:layout_height="250sp"
+        android:layout_height="150sp"
         android:src="@drawable/shoes"
         android:id="@+id/potato_shoes"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5sp"
-        android:visibility="gone"/>
+        android:visibility="invisible"/>
 
     <!--Beginning of the gridlayout-->
 
@@ -163,11 +165,13 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:id="@+id/doos"
-        android.rowCount="5"
-        android:columnCount="2"
+        android.rowCount="2"
+        android:columnCount="5"
 
         android:layout_below="@+id/potato_body"
-        android:layout_centerHorizontal="true">
+        android:layout_alignLeft="@+id/potato_body"
+        android:layout_alignStart="@+id/potato_body"
+        android:layout_marginTop="0dp">
 
 
         <CheckBox
